@@ -20,7 +20,7 @@ class UseCase(UseCaseCore, metaclass=ABCMeta):
 
     def __run__(self, *args, **kwargs):
         if self._in_val and not self._in_val.check(*args, **kwargs):
-            self.abort(400)
+            raise ValueError
         res = super(UseCase, self).__call__(*args, **kwargs)
         if self._out_val and not self._out_val.check(res): return
 

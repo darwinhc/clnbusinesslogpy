@@ -1,7 +1,4 @@
-
-
-
-
+# Clean business logic python (clnbusinesslogpy)
 
 ## Description
 It is to create functionalities in the backend, without dependencies and based on use cases. Minimize the cost of a possible migration to another web framework.
@@ -12,10 +9,6 @@ For more information go to the [documentation](https://github.com/darwinhc/clnbu
 ## Download
 
 Download the src folder, rename it and put it in your company's infrastructure package.
-
-~~~
-svn checkout https://github.com/darwinhc/clnbusinesslogpy/trunk/master/src
-~~~
 
 ## Usage
 
